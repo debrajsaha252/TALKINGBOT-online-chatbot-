@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+
+
+.navbar-brand {
+    font-family: ROG Fonts;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(52, 52, 52);
+}
+
+.nav-link {
+    color: #020202;
+}
+
+.nav-item {
+    font-family: ROG Fonts;
+    size: 10px;
+}
+
+
+.d-flex justify-content-center {
+    text-align: center;
+    margin: auto;
+}
+
+.scrollspyHeading1 {
+    height: 100%;
+    width: 100%;
+    float: left;
+    padding: none;
+    position: fixed;
+}
+
+.spline {}
+
+.scrollspyHeading2 {
+    background-color: rgb(85, 84, 84);
+}
+
+/* .button{
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 615px;
+} */
+
+#p1 {
+    font-family: Arial Rounded MT Bold;
+}
+
+#p2 {
+    font-family: Times New Roman;
+}
+
+.fs-1 {
+    font-family: ROG Fonts;
+    margin-top: 45px;
+}
+
+#creator {
+    margin-top: 20px;
+}
+
+#overview {
+    margin-top: 20px;
+    font-family: ROG Fonts;
+}
+
+.Overview {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#Features {
+    margin-top: 70px;
+    font-family: ROG Fonts;
+}
+
+.Features {
+    margin-top: 20px;
+}
+
+#Technologies_Used {
+    margin-top: 50px;
+    font-family: ROG Fonts;
+}
+
+.Technologies_Used {
+    margin-top: 20px;
+}
+
+#Our_Mission {
+    margin-top: 20px;
+    font-family: ROG Fonts;
+}
+
+.Our_Mission {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#contact {
+    font-family: ROG Fonts;
+}
+
+#gmail_w {
+    margin-top: 70px;
+    font-family: Times New Roman;
+}
+
+.gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gmail {
+    font-family: ROG Fonts;
+    color: black;
+    font-size: 3em;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: animtext 4s steps(80, end) infinite;
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+@keyframes animtext { 
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+a {
+    color: rgb(7 7 7);
+    text-decoration: underline;
+}
+
+.icons{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gitlink {
+    text-decoration: none;
+    display: inline-block; /* Ensures proper click area */
+    cursor: pointer;
+}
+
+.linkdin{
+    margin-left: 20px;
+}
+
+.facebook{
+    margin-left: 20px;
+}
+
+.instagram{
+    margin-left: 20px;
+}
+
+
+
+

@@ -1,0 +1,98 @@
+.Talkingbot {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.logo h1 {
+    font-family: ROG Fonts;
+    text-shadow: 3px 3px #858585;
+    display: inline-block;
+}
+
+.fll{
+    background-color: black;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(53 53 53) !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgb(65 65 65) !important;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #fbfdff;
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.btn-primary {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #9d9d9d;
+     --bs-btn-border-color: #9d9d9d; 
+    --bs-btn-hover-color: #fff;
+     --bs-btn-hover-bg: #9d9d9d; 
+     --bs-btn-hover-border-color: #9d9d9d; 
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #9d9d9d;
+     --bs-btn-active-bg: #9d9d9d; 
+     --bs-btn-active-border-color: #9d9d9d; 
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #9d9d9d;
+     --bs-btn-disabled-bg: #9d9d9d; 
+     --bs-btn-disabled-border-color: #9d9d9d; 
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color:  rgb(65 65 65) !important;
+}
+  
+#outputbox{
+    
+}
+
+.homelink{
+    font-family: ROG Fonts;
+    margin-bottom: 7px;
+    display: inline-block;
+    align-items: end;
+    /* margin-left: 770px; */
+}
+
+.answer{
+    font-family: Calibri;
+}
+
+.logo1{
+    display: inline-block;
+}
+
+.text-end{
+    display: inline-block;
+}
